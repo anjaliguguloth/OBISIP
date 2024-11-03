@@ -366,13 +366,13 @@ class OnlineExamination{
                     }
                 }
                 else{
-                    System.out.println("\nThank you!)"); 
+                    System.out.println("\nThank you..visit again.."); 
                     System.exit(0);
                 }
             }
         }
         else {
-            System.out.println("\nThank you!)"); 
+            System.out.println("\nThank you!"); 
         	System.exit(0);
         }
         input.close();
