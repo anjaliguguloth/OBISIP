@@ -27,10 +27,10 @@ public class ATM {
                 int choice = sc.nextInt();
 
                 switch (choice) {
-                    case 1 ->operations.transfer();
-                    case 2 ->operations.withdraw();
-                    case 3 ->operations.deposit();
-                    case 4 ->operations.showTransactionHistory();
+                    case 1 -> operations.transfer(); 
+                    case 2 -> operations.withdraw();
+                    case 3 -> operations.deposit();
+                    case 4 -> operations.showTransactionHistory();
                     case 5 ->{
                         System.out.println("Thank you for using the ATM!");
                         running = false;
